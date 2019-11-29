@@ -1,3 +1,4 @@
-data:
-    mongodb:
-      uri: mongodb+srv://mongo:as132476@cluster0-ctze0.mongodb.net/loja?retryWrites=true&w=majority&ssl=true
+spring:
+    data:
+        mongodb:
+          uri: mongodb+srv://mongo:as132476@cluster0-ctze0.mongodb.net/loja?retryWrites=true&w=majority&ssl=true
