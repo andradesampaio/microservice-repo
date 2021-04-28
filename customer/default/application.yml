@@ -5,23 +5,23 @@ spring:
     application:
         name: customer
     datasource:
-      url : jdbc:mysql://localhost:3306/customer?createDatabaseIfNotExist=true&allowPublicKeyRetrieval=true&useSSL=false&useTimezone=true&serverTimezone=UTC
-      username : root
-      password : root 
-      initialization-mode : always
-    jpa.properties.hibernate.dialect : org.hibernate.dialect.MySQL8Dialect
-    jpa.hibernate.ddl-auto : none
-    security.user.name : root
+      url: jdbc:mysql://localhost:3306/customer?createDatabaseIfNotExist=true&allowPublicKeyRetrieval=true&useSSL=false&useTimezone=true&serverTimezone=UTC
+      username: root
+      password: root 
+      initialization-mode: always
+    jpa.properties.hibernate.dialect: org.hibernate.dialect.MySQL8Dialect
+    jpa.hibernate.ddl-auto: create-drop
+    security.user.name: root
     security.user.password: root
 
 #Swagger
-swagger.api.info.title : microservice-bankAccount
-swagger.api.info.description : Project for Customers
-swagger.api.info.version : 0.0.1-SNAPSHOT
+swagger.api.info.title: microservice-bankAccount
+swagger.api.info.description: Project for Customers
+swagger.api.info.version: 0.0.1-SNAPSHOT
     
 
-retry.maxAttempts : 5
-retry.backOffPeriod : 2000
+retry.maxAttempts: 5
+retry.backOffPeriod: 2000
 
 url.api.login: http://localhost:9005
 
