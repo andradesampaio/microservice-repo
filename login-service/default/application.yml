@@ -14,8 +14,6 @@ spring:
     security.user.name : root
     security.user.password: root
 
-url.api.oauth: http://localhost:9007/oauth/register
-
 message:
  source:
   basename: classpath:message/message.properties
