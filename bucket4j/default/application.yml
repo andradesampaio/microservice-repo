@@ -1,0 +1,10 @@
+server:
+    port: 9011
+
+spring:
+    application:
+        name: bucket4j
+
+rate.limit.retry=5
+rate.limit.remaining.minute=1
+spring.redis.host=localhost:6379
