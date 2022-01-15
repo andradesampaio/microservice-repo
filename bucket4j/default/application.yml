@@ -7,4 +7,4 @@ spring:
 
 rate.limit.retry : 5
 rate.limit.remaining.minute : 1
-spring.redis.host:localhost : 6379
+spring.redis.host: localhost:6379
