@@ -5,6 +5,6 @@ spring:
     application:
         name: bucket4j
 
-rate.limit.retry : 10
+rate.limit.retry : 1010
 rate.limit.remaining.minute : 1
-spring.redis.host: localhost:6379
+spring.redis.host: localhost:637979
